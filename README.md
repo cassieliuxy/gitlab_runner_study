@@ -9,7 +9,7 @@ https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/
  - Install and configure GitLab-runners.
 
 ## How does a Pipeline work?
-![](https://github.com/cassieliuxy/gitlab_runner_study/master/images/Pipeline)  
+![](https://github.com/cassieliuxy/gitlab_runner_study/master/images/Pipeline.png)  
 
 
 ### Reference:
