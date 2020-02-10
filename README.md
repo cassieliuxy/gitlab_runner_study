@@ -33,7 +33,7 @@ docker ps
 ```
 4. Register a runner:
   * Go to: `YourProject/Settings/CI|CD/Runners Settings` Find the information of Specific Runners of Shared Runners
-  ![](https://github.com/cassieliuxy/gitlab_runner_study/blob/master/images/Runner Settings.png) 
+  ![](https://github.com/cassieliuxy/gitlab_runner_study/blob/master/images/Runner_Settings.png) 
   * Command Line:
  ```Bash
  docker exec -it gitlab-runner gitlab-runner register
@@ -73,7 +73,7 @@ More information about `.gitalab-ci.yml` file: https://docs.gitlab.com/ee/ci/qui
 Go to `YourProject/CI|CD/Pipelines`.
 ![](https://github.com/cassieliuxy/gitlab_runner_study/blob/master/images/Jobs.png) 
 It shows the pipeline. When you click the Pipeline number, more information will be shown.
-![](https://github.com/cassieliuxy/gitlab_runner_study/blob/master/images/Pipeline Details.png) 
+![](https://github.com/cassieliuxy/gitlab_runner_study/blob/master/images/Pipeline_Details.png) 
 When you click the jobs on the pipeline, you can see more details.
 
 
