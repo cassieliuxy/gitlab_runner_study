@@ -68,6 +68,10 @@ test_job:
 ```
 More information about `.gitalab-ci.yml` file: https://docs.gitlab.com/ee/ci/quick_start/README.html
 
+## Pipelines:
+Go to `YourProject/CI|CD/Pipelines`.
+
+
 ### Reference:
  - https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/
  - https://docs.gitlab.com/runner/install/docker.html
