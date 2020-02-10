@@ -19,19 +19,19 @@ On any push to the repo, GitLab will look for the gitlab-ci ymal file and start 
   If any of the previous job fails, the commit is marked as failed and no jobs of further stage are executed.
 
 ## Install GitLab Runner:
-*1. Run Docker and pull the latest image:
+1. Run Docker and pull the latest image:
 ```Bash
 docker pull gitlab/gitlab-runner
 ```
-*2. Start the docker gitlab-runner: (https://docs.gitlab.com/runner/install/docker.html)
+2. Start the docker gitlab-runner: (https://docs.gitlab.com/runner/install/docker.html)
 ```Bash
 docker run -d --name gitlab-runner --restart always -v /srv/gitlab-runner/config:/etc/gitlab-runner -v /var/run/docker.sock:/var/run/docker.sock gitlab/gitlab-runner:latest
 ```
-*3. Check the image:
+3. Check the image:
 ```Bash
 docker ps
 ```
-*4. Register a runner:
+4. Register a runner:
  * Go to: `YourProject/Settings/CI|CD/Runners Settings` Find the information of Specific Runners of Shared Runners
  * Command Line:
  ```Bash
@@ -40,7 +40,7 @@ docker ps
  - Enter the URL and token from the runner information.
  - Setup the tags. The tags will be used to configure the runner in `.gitlab-ci.yml`.
  - Configure the description, executor and default image.
-*5. Refresh `YourProject/Settings/CI|CD/Runners Settings` to update the runners.
+5. Refresh `YourProject/Settings/CI|CD/Runners Settings` to update the runners.
 
 ### Reference:
 https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/
