@@ -10,9 +10,9 @@ https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/
 
 ## How does a Pipeline work?
 ![](https://github.com/cassieliuxy/gitlab_runner_study/blob/master/images/Pipeline.png)  
-  Each stage can have many jobs.
-  Jobs of the same stage are run in parallel.
-  If any of the previous job fails, the commit is marked as failed and no jobs of further stage are executed.
+  Each stage can have many jobs.<br>
+  Jobs of the same stage are run in parallel.<br/><br>
+  If any of the previous job fails, the commit is marked as failed and no jobs of further stage are executed.<br/>
 
 
 ### Reference:
