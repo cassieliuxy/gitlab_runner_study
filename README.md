@@ -42,5 +42,33 @@ docker ps
    * Configure the description, executor and default image.
 5. Refresh `YourProject/Settings/CI|CD/Runners Settings` to update the runners.
 
+## Create a `.gitalab-ci.yml` file:
+Examples:
+```YMAL
+image: ubuntu: 18.04
+
+stages:
+  - build
+  - test
+  
+build_job:
+  stage: build
+  script:
+    - echo BUILD
+  tags:
+    - build
+
+test_job:
+  stage: test
+  script:
+    - echo TEST
+    - echo $CI_COMMIT_SHA
+  tags:
+    - test
+```
+More information about `.gitalab-ci.yml` file: https://docs.gitlab.com/ee/ci/quick_start/README.html
+
 ### Reference:
 https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/
+https://docs.gitlab.com/runner/install/docker.html
+https://docs.gitlab.com/ee/ci/quick_start/README.html
