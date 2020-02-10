@@ -18,7 +18,7 @@ On any push to the repo, GitLab will look for the gitlab-ci ymal file and start 
   Jobs of the same stage are run in parallel.<br/>
   If any of the previous job fails, the commit is marked as failed and no jobs of further stage are executed.
 
-## Install GitLab Runner:
+## Install a GitLab Runner:
 1. Run Docker and pull the latest image:
 ```Bash
 docker pull gitlab/gitlab-runner
