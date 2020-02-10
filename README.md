@@ -32,14 +32,14 @@ docker run -d --name gitlab-runner --restart always -v /srv/gitlab-runner/config
 docker ps
 ```
 4. Register a runner:
- * Go to: `YourProject/Settings/CI|CD/Runners Settings` Find the information of Specific Runners of Shared Runners
- * Command Line:
+  * Go to: `YourProject/Settings/CI|CD/Runners Settings` Find the information of Specific Runners of Shared Runners
+  * Command Line:
  ```Bash
  docker exec -it gitlab-runner gitlab-runner register
  ```
- - Enter the URL and token from the runner information.
- - Setup the tags. The tags will be used to configure the runner in `.gitlab-ci.yml`.
- - Configure the description, executor and default image.
+   * Enter the URL and token from the runner information.
+   * Setup the tags. The tags will be used to configure the runner in `.gitlab-ci.yml`.
+   * Configure the description, executor and default image.
 5. Refresh `YourProject/Settings/CI|CD/Runners Settings` to update the runners.
 
 ### Reference:
