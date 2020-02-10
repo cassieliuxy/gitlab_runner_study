@@ -16,7 +16,8 @@ On any push to the repo, GitLab will look for the gitlab-ci ymal file and start 
 ![](https://github.com/cassieliuxy/gitlab_runner_study/blob/master/images/Pipeline.png)  
   Each stage can have many jobs.<br>
   Jobs of the same stage are run in parallel.<br/>
-  If any of the previous job fails, the commit is marked as failed and no jobs of further stage are executed.
+  If any of the previous job fails, the commit is marked as failed and no jobs of further stage are executed.<br>
+  If anything goes wrong, you can easily roll back all the changes.<br/>
 
 ## Install a GitLab Runner:
 1. Run Docker and pull the latest image:
