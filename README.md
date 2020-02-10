@@ -9,13 +9,6 @@ https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/
  - Install and configure GitLab-runners.
 
 ## How does a Pipeline work?
-+---------------------------------------------------------------------------------------------+
-| Pipeline                                                                                    |
-| +---------------+
-| |Stage1         |
-| | +----+ +----+ |
-| | |Job1| |Job2| |
-| | +----+ +----+ |
 
 
 ### Reference:
