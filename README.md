@@ -73,8 +73,8 @@ More information about `.gitalab-ci.yml` file: https://docs.gitlab.com/ee/ci/qui
 Go to `YourProject/CI|CD/Pipelines`.
 ![](https://github.com/cassieliuxy/gitlab_runner_study/blob/master/images/Jobs.png) 
 It shows the pipeline. When you click the Pipeline number, more information will be shown.
-![](https://github.com/cassieliuxy/gitlab_runner_study/blob/master/images/Pipeline_Details.png) 
-When you click the jobs on the pipeline, you can see more details.
+![](https://github.com/cassieliuxy/gitlab_runner_study/blob/master/images/Pipeline_Details.png) <br>
+When you click the jobs on the pipeline, you can see more details.<br/>
 
 
 ### Reference:
