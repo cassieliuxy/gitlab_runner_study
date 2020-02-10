@@ -1,4 +1,4 @@
-# gitlab_runner_study
+# GitLab-CI Study
 This is a web to record my GitLab-CI research.
 
 ## Introduction
@@ -69,6 +69,8 @@ test_job:
 More information about `.gitalab-ci.yml` file: https://docs.gitlab.com/ee/ci/quick_start/README.html
 
 ### Reference:
-https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/
-https://docs.gitlab.com/runner/install/docker.html
-https://docs.gitlab.com/ee/ci/quick_start/README.html
+ - https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/
+ - https://docs.gitlab.com/runner/install/docker.html
+ - https://docs.gitlab.com/ee/ci/quick_start/README.html
+
+#### Author: Xiaoyan Liu (https://github.com/cassieliuxy/gitlab_runner_study)
