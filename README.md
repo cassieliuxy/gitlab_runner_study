@@ -1,2 +1,13 @@
 # gitlab_runner_study
-GitLab-CI Research
+This is a web to record my GitLab-CI research.
+
+## Introduction
+https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/
+
+## Require
+ - Add a '.gitlab-ci.yml' file to your repository’s root directory.
+ - Install and configure GitLab-runners
+
+
+### Reference:
+https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/
